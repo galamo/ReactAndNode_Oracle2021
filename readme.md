@@ -160,7 +160,13 @@ qXjhMy9pA0hPf3yY7Q2V8fVKhfrmo+qGQv5DiA==
 
 
 ```
+### Express entry point
+```
+app.get('/', function (req, res) {
+  res.send('GET request to the homepage')
+})
 
+```
 ### Entry points
 - GET /cars
 - GET /cars?id=<CarId>
