@@ -162,10 +162,10 @@ qXjhMy9pA0hPf3yY7Q2V8fVKhfrmo+qGQv5DiA==
 ```
 
 ### Entry points
-GET /cars
-GET /cars?id=<CarId>
-POST /car
-GET /countries ( go to another rest api )
+- GET /cars
+- GET /cars?id=<CarId>
+- POST /car
+- GET /countries ( go to another rest api )
     
 
 ## Client - React
