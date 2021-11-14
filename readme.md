@@ -8,7 +8,7 @@
 
 ## git 
 - clone the repo
-- git clone https://github.com/galamo/Node_React_devGeekWeek2021.git
+- git clone https://github.com/galamo/ReactAndNode_Oracle2021.git
 
 
 # Apps
