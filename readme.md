@@ -1,5 +1,14 @@
 # React And Node
 
+# Node
+
+### Run Javascript in your local machine
+1. open CMD - command line
+2. type `node -v`
+3. type `node` and press enter
+4. calculate circle perimeter `2*PI*R`
+
+
 ### Async programming
 
 #### Callbacks
@@ -23,7 +32,6 @@
 ```json
 {
     "@types/joi": "^17.2.3",
-    "@types/mysql": "^2.15.18",
     "concurrently": "^6.2.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -248,8 +256,9 @@ function Car(props){
 2. docker-compose up
 
 
-
-#### Data
+#### Data External link
+https://restcountries.com/v3.1/all
+#### Data Internal
 
 ```js
 const cars = [{
