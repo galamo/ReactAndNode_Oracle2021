@@ -4,6 +4,9 @@
 
 run `node -v` to validate your nodejs versoin
 
+#### upgrade npm 
+`npm install -g npm@latest`
+
 ### Run Javascript in your local machine
 1. open CMD - command line
 2. type `node -v`
