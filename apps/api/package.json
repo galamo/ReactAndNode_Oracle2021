@@ -4,7 +4,8 @@
   "description": "api in oracle week",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./dist/index.js",
+    
   },
   "dependencies": {
     "@types/joi": "^17.2.3",
