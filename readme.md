@@ -31,7 +31,9 @@ run `node -v` to validate your nodejs versoin
 
 #### package.json
 ##### install globals
-- `npm install -g typescript -g nodemon -g concurrently`
+- Windwos: before running this command please Open the CMD as Administrator
+- MAC: use `sudo` prefix
+######  `npm install -g typescript -g nodemon -g concurrently`
 
 - dependencies 
 ```json
