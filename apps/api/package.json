@@ -4,7 +4,10 @@
   "description": "api in oracle week",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "#######": "npm run <Custom-Command> , start-node & build are custom",
+    "start-node": "nodemon ./dist/index.js",
+    "build": "tsc --watch",
+    "start": "concurrently -k -p \"[{name}]\" -n \"Ts-Compile,Api\" -c \"red,yellow\" \"npm run build\" \"npm run start-node\"  "
   },
   "dependencies": {
     "@types/joi": "^17.2.3",
