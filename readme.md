@@ -2,6 +2,8 @@
 
 # Node
 
+run `node -v` to validate your nodejs versoin
+
 ### Run Javascript in your local machine
 1. open CMD - command line
 2. type `node -v`
