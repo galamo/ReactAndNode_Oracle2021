@@ -13,8 +13,8 @@ function addRequestId(req, res, next) {
 }
 
 function validateQuery(req, res, next) {
+    console.log(`Request Started ${req.requestId}`)
     const { query } = req;
-    console.log(Object.keys(query))
     if (!Object.keys(query).length) {
         console.log(`Missing query params ${req.requestId}`)
         return res.send(`something went wrong , error: ${req.requestId}`)
@@ -24,6 +24,11 @@ function validateQuery(req, res, next) {
 
 app.get("/healthcheck", (req: express.Request, res: express.Response, next: express.NextFunction) => {
     res.send("Applicaiton is up")
+})
+
+app.get("/cars", (req, res, next) => {
+
+    res.send("test: 1")
 })
 
 
