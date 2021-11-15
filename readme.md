@@ -209,6 +209,31 @@ router.get('/', function (req, res) {
 #### creating react applicaiton
 `npx create-react-app <APP_NAME> --template typescript`
 
+
+### Creating a simple function component
+```js
+function Car Page(){
+    return (<div> <h1> Car Page </h1> </div>)
+}
+
+```
+
+### Creating a simple function component
+```js
+function CarPage(){
+    return (<div> <h1> Car Page </h1> </div>)
+}
+
+```
+
+### Sending Props
+```js
+function Car(props){
+    return (<div> {props.carName} </div>)
+}
+
+```
+
 #### Project
 1. React Cli 
 2. Project structure
